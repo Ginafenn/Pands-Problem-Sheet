@@ -3,7 +3,7 @@
 #author:Regina Fennessy
 
 def collatz(number):
-    while number != 1: #
+    while number != 1: 
         print(number)
         if number % 2 == 0:
             number = int(number / 2)

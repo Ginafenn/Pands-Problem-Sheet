@@ -6,6 +6,6 @@ weight = int(input('Please enter your weight in kg:'))
 
 BMI = weight / (height/100)**2
 
-print (f"Your BMI is {BMI}")
+print ('Your BMI is %.2f' % BMI)
 
 
