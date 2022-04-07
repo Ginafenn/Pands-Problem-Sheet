@@ -11,11 +11,11 @@ import matplotlib.pyplot as plt
 xpoints = np.array(range(0,4))
 
 xpoints = xpoints
-
+#square x
 y1points = xpoints * xpoints
-
+#cubex
 y2points = xpoints * xpoints *  xpoints
-
+#Plot values on the point and use labels and colors of choice
 plt.plot(xpoints, xpoints, label = "X", color="Grey")
 plt.plot(xpoints, y1points, label = "squared", color="black")
 plt.plot(xpoints, y2points, label = "cubed", color="blue")
